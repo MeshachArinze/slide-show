@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>slide</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is--hidden">
+                <div style="cursor: pointer;">&leftarrow;</div>
+            </button>
+    
+            <div class="carousel__track-container">
+                <ul class="carousel__track" >
+                    <li class="carousel__slide current-slide">
+                        <img class="carousel__image" src="./room/product-1.jpeg">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="./room/product-2.jpeg">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="./room/product-3.jpeg">
+                    </li>
+                </ul>
+            </div>
+    
+            <button class="carousel__button carousel__button--right ">
+                <div style="cursor: pointer;">&rightarrow;</div>
+            </button>
+        </div>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
